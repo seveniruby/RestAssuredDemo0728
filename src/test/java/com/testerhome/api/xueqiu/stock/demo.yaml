@@ -1,0 +1,589 @@
+
+
+
+
+---
+log:
+  version: "1.2"
+  pages: []
+  entries:
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/promotion/display_ad.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251&_s=0b0e2d&uid=7160412574&platform_id=0x04&page_id=0x08"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "_s"
+        value: "0b0e2d"
+      - name: "uid"
+        value: "7160412574"
+      - name: "u"
+        value: "7160412574"
+      - name: "page_id"
+        value: "0x08"
+      - name: "platform_id"
+        value: "0x04"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 457
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Vary"
+        value: "Accept-Encoding"
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Type"
+        value: "application/json; charset=UTF-8"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Content-Length"
+        value: "187"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json; charset=UTF-8"
+        text: "{\"ads\":[{\"image\":\"http://xqimg.imedao.com/164c1da0d6e243fee4322a35.png\"\
+          ,\"timer\":3,\"updated_at\":1532260671801,\"link\":\"https://xueqiu.com/f/about-fof\"\
+          ,\"promotion_id\":10000010356}],\"code\":0}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/etc/prompt/bomb_box/show.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251&_s=1ea92a&uid=7160412574"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "uid"
+        value: "7160412574"
+      - name: "u"
+        value: "7160412574"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      - name: "_s"
+        value: "1ea92a"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 431
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Vary"
+        value: "Accept-Encoding"
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Language"
+        value: "en-US"
+      - name: "Content-Length"
+        value: "88"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "Cache-Control"
+        value: "private, no-store, no-cache, must-revalidate, max-age=0"
+      - name: "Content-Type"
+        value: "application/json;charset=UTF-8"
+      - name: "Trace-Id"
+        value: "e09218b3fd95e8de"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json;charset=UTF-8"
+        text: "{\"bomb_box\":{\"id\":0,\"link\":null,\"image\":null,\"page\":null,\"\
+          cut_off_at\":0,\"updated_at\":0}}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/promotion/search_ad.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251&_s=bebc84&pos_id=0&uid=7160412574&platform_id=0x04&page_id=0x07"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "pos_id"
+        value: "0"
+      - name: "uid"
+        value: "7160412574"
+      - name: "platform_id"
+        value: "0x04"
+      - name: "u"
+        value: "7160412574"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377251"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      - name: "_s"
+        value: "bebc84"
+      - name: "page_id"
+        value: "0x07"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 465
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Vary"
+        value: "Accept-Encoding"
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Type"
+        value: "application/json; charset=UTF-8"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Content-Length"
+        value: "161"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json; charset=UTF-8"
+        text: "{\"ads\":[{\"link\":\"https://danjuanapp.com/market/422?channel=1100104136&source=xq_rs_xsfl\"\
+          ,\"promotion_id\":10000010491,\"title\":\"答题领15元奖学金\"}],\"code\":0}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/promotion/display_ad_batch.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377252&_s=db90ab&uid=7160412574&platform_id=0x04&page_id=0x09%2C0x16%2C0x11%2C0x18"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "u"
+        value: "7160412574"
+      - name: "platform_id"
+        value: "0x04"
+      - name: "page_id"
+        value: "0x09%2C0x16%2C0x11%2C0x18"
+      - name: "uid"
+        value: "7160412574"
+      - name: "_s"
+        value: "db90ab"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377252"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 484
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Content-Length"
+        value: "109"
+      - name: "Vary"
+        value: "Accept-Encoding"
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Type"
+        value: "application/json; charset=UTF-8"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json; charset=UTF-8"
+        text: "{\"0x09\":{\"ads\":[],\"code\":1},\"0x18\":{\"ads\":[],\"code\":1},\"\
+          0x16\":{\"ads\":[],\"code\":1},\"0x11\":{\"ads\":[],\"code\":1}}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/share/get_content.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377252&_s=77401e&special_id=0&updated=0&id=0&type=8"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "_s"
+        value: "77401e"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377252"
+      - name: "id"
+        value: "0"
+      - name: "updated"
+        value: "0"
+      - name: "special_id"
+        value: "0"
+      - name: "type"
+        value: "8"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      - name: "u"
+        value: "7160412574"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 444
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Vary"
+        value: "Accept-Encoding"
+      - name: "Content-Length"
+        value: "189"
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Language"
+        value: "en-US"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "Trace-Id"
+        value: "e951f9ebe574640a"
+      - name: "Cache-Control"
+        value: "private, no-store, no-cache, must-revalidate, max-age=0"
+      - name: "Content-Type"
+        value: "application/json;charset=UTF-8"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json;charset=UTF-8"
+        text: "{\"share_content\":{\"content\":\"（声明：本回复仅代表该作者观点，不构成任何投资建议）|（红包已退回\
+          ）\",\"updated\":1467183320834,\"img_url\":null},\"has_update\":true}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/mobile_config/content.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377253&_s=5c615d&updated=1531729429414&type=android_upgrade_config"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "_s"
+        value: "5c615d"
+      - name: "u"
+        value: "7160412574"
+      - name: "updated"
+        value: "1531729429414"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      - name: "type"
+        value: "android_upgrade_config"
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377253"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 463
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Trace-Id"
+        value: "4e8e1e6ba2d00f21"
+      - name: "Connection"
+        value: "close"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "Content-Length"
+        value: "21"
+      - name: "Cache-Control"
+        value: "private, no-store, no-cache, must-revalidate, max-age=0"
+      - name: "Content-Type"
+        value: "application/json;charset=UTF-8"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json;charset=UTF-8"
+        text: "{\"has_update\": false}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  - request:
+      method: "GET"
+      url: "https://101.201.62.20:443/mobile_config/content.json?_t=1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377253&_s=443edb&updated=1480586495574&type=stk_cata"
+      cookies: []
+      headers:
+      - name: "Accept-Language"
+        value: "en-US,en;q=0.8,zh-CN;q=0.6,zh;q=0.4"
+      - name: "Cookie"
+        value: "xq_a_token=5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b;u=7160412574"
+      - name: "Connection"
+        value: "close"
+      - name: "host"
+        value: "api.xueqiu.com"
+      - name: "User-Agent"
+        value: "Xueqiu Android 8.7-rc-1618"
+      - name: "Accept-Encoding"
+        value: "gzip, deflate"
+      queryString:
+      - name: "_t"
+        value: "1GENYMOTION66adefb1e7e6e9882dc08ac85ab792b3.7160412574.1532745299823.1532766377253"
+      - name: "xq_a_token"
+        value: "5debab7905abbcd9b2c5856e8b2c3e8ed890eb5b"
+      - name: "u"
+        value: "7160412574"
+      - name: "updated"
+        value: "1480586495574"
+      - name: "type"
+        value: "stk_cata"
+      - name: "_s"
+        value: "443edb"
+      postData:
+        text: ""
+        comment: ""
+      headersSize: 0
+      bodySize: 449
+      comment: ""
+    response:
+      status: 200
+      cookies: []
+      headers:
+      - name: "Connection"
+        value: "close"
+      - name: "Content-Length"
+        value: "682"
+      - name: "Trace-Id"
+        value: "c6ce5276d566961d"
+      - name: "Server"
+        value: "openresty/1.11.2.4"
+      - name: "Date"
+        value: "Sat, 28 Jul 2018 08"
+      - name: "Cache-Control"
+        value: "private, no-store, no-cache, must-revalidate, max-age=0"
+      - name: "Content-Type"
+        value: "application/json;charset=UTF-8"
+      - name: "P3P"
+        value: "\"CP=\"IDC DSP COR ADM DEVi TAIi PSA PSD IVAi IVDi CONi HIS OUR IND\
+          \ CNT\"\""
+      content:
+        size: 0
+        mimeType: " application/json;charset=UTF-8"
+        text: "{\"has_update\": true,\"updated\":1472782162290 ,\"content\": {\r\n\
+          \  \"US\": {\r\n    \"ETF\": [\r\n      {\"美国\":[\"纳斯达克\",\"恐慌指数\",\"美国小\
+          盘\",\"标普500\",\"道琼斯\"]},\r\n      {\"大宗\":[\"原油\",\"天然气\",\"黄金\",\"金矿\"\
+          ,\"白银\",\"农产品\",\"其他\"]},\r\n      {\"世界\":[\"中国\",\"亚洲\",\"欧洲\",\"美洲\"\
+          ,\"其他\"]},\r\n      {\"行业\":[\"能源\",\"科技\",\"生物医药\",\"房地产\",\"金融\",\"农业\"\
+          ,\"工业\",\"公用事业\",\"消费\"]},\r\n      {\"外汇\":[\"人民币\",\"美元\",\"欧洲货币\",\"日\
+          元\",\"其他\"]},\r\n      {\"债券\":[\"国债\",\"公司债\",\"高收益债\",\"新兴债\",\"抗通胀\"\
+          ]},\r\n      {\"特色\":[\"Firstrade免佣ETF\",\"做空ETF\",\"杠杆ETF\"]}\r\n    ]\r\
+          \n  }\r\n}}"
+        comment: ""
+      redirectURL: ""
+      headersSize: -1
+      bodySize: -1
+      comment: ""
+    cache: {}
+    timings:
+      comment: ""
+      send: 0
+      dns: -1
+      wait: 0
+      ssl: -1
+      blocked: -1
+      connect: -1
+      receive: 0
+    serverIPAddress: "101.201.62.20"
+    comment: ""
+    time: 0
+  comment: ""
